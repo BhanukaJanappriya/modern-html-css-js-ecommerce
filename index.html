@@ -5,9 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShopEase - eCommerce Website</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="./assets/banners/">
+    <link rel="shortcut icon" href="./assets/banners/logo/logo.png" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+    
 </head>
 <body>
+    <div class="overlay" data-overlay></div>
+    <!-- MODAL -->
+    <div class="modal" data-modal>
+        <div class="modal-close-overlay" data-modal-overlay></div>
+        <div class="model-content">
+            <button class="modal-close-btn" data-modal-close> 
+                <ion-icon class="close-outline"></ion-icon>
+            </button>
+            <div class="newsletter-img">
+                <img src="./assets//banners/newsletter.png" alt="subscribe newsletter" width="400" height="400">
+            </div>
+            <div class="newslettr">
+                <form action="#">
+                    <div class="newsletter-header">
+                        <h3 class="newsletter-title">Subscribe Newsletter.</h3>
+                        <p class="newsletter-desc">
+                            Subscribe the <b>ShopEase</b> to get latest products and discount update.
+                        </p>
+                    </div>
+                    <input type="email" name="email" class="email" placeholder="Email Address" required>
+                    <button type="submit" class="btn-newsletter"> Subscribe</button>
+
+                </form>
+            </div>
+            
+            
+        </div>
+    </div>
     
 </body>
 </html>
